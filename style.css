@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(129, 158, 172, 0.5);
+}
+section {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rect {
+    width: 320px;
+    height: 473px;
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.rect div img {
+    width: 288px;
+    height: 278px;
+    border-radius: 10px;
+}
+.text .fist {
+    padding-bottom: 10px;
+}
+.text .fist p {
+    color: grey;
+    font-size: 15px;
+    padding-top: 16px;
+}
+.attribution {
+    font-size: 11px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
